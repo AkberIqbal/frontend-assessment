@@ -1,39 +1,21 @@
 Introduction
 ---
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries. Bonus points if SASS/LESS is used and jQuery is not used.
+Thanks for taking the time to review my application and these codes
 
-Exercise 1
+Exercise 1 - mindArc_exercise1.html
 ---
-Build a responsive page based on the designs.
+##### Note
+Need to install bootstrap locally (i did using npm install bootstrap)
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+Exercise 2 - mindArc_exercise2.html
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+##### Note
+Need to install bootstrap locally (i did using npm install bootstrap)
+To get around the cors issue, i placed the json file and the mindArc_exercise2.html files in the same place on my webserver (IIS)
+jQuery is part & requirement to run Bootstrap so since jQuery was loaded, I used it
 
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
-
-Exercise 2
----
-Read the `data.json` file and display the data as an accordion on desktop and tabs on mobile.
-
-##### Requirements
-1. Display data in an accordion on desktop.
-2. Display data in tabs in mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
-
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
 * Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+the second plus does more than concatenation and results in NaN (not a number error) because compiler is unable to add a character such as 'a', or 'b'... using toLowerCase just made it obvious
 
 Submission
 ---
